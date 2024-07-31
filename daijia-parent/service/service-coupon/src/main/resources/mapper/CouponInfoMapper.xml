@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+
+<mapper namespace="com.atguigu.daijia.coupon.mapper.CouponInfoMapper">
+
+	<resultMap id="couponInfoMap" type="com.atguigu.daijia.model.entity.coupon.CouponInfo" autoMapping="true">
+	</resultMap>
+	
+	<!-- 用于select查询公用抽取的列 -->
+	<sql id="columns">
+		info.id,info.coupon_type,info.name,info.amount,info.discount,info.condition_amount,info.publish_count,info.per_limit,info.use_count,info.receive_count,info.expire_time,info.describe,info.status,info.create_time,info.update_time,info.is_deleted
+	</sql>
+
+	<select id="findNoUseList" resultType="com.atguigu.daijia.model.vo.coupon.NoUseCouponVo">
+		select
+			info.id,
+			info.coupon_type,
+			info.name,
+			info.amount,
+			info.discount,
+			info.condition_amount,
+			info.publish_count,
+			info.per_limit,
+			info.expire_time,
+			info.description,
+
+			cstr.id as customerCouponId,
+			cstr.receive_time
+		from coupon_info info
+				 inner join customer_coupon cstr on cstr.coupon_id = info.id
+		where
+			cstr.customer_id = #{customerId}
+		  and cstr.status = 1
+		  and cstr.expire_time > now()
+		order by cstr.id desc
+	</select>
+
+	<update id="updateReceiveCount">
+		update coupon_info set receive_count = receive_count + 1
+		                   where id = #{couponId} and receive_count &lt; publish_count
+	</update>
+
+	<select id="findNoUsePage" resultType="com.atguigu.daijia.model.vo.coupon.NoUseCouponVo">
+		select
+			info.id,
+			info.coupon_type,
+			info.name,
+			info.amount,
+			info.discount,
+			info.condition_amount,
+			info.publish_count,
+			info.per_limit,
+			info.expire_time,
+			info.description,
+
+			cstr.receive_time
+		from coupon_info info
+				 inner join customer_coupon cstr on cstr.coupon_id = info.id
+		where
+			cstr.customer_id = #{customerId}
+		  and cstr.status = 1
+		  and cstr.expire_time > now()
+		order by cstr.id desc
+	</select>
+
+
+	<select id="findNoReceivePage" resultType="com.atguigu.daijia.model.vo.coupon.NoReceiveCouponVo">
+		select
+			info.id,
+			info.coupon_type,
+			info.name,
+			info.amount,
+			info.discount,
+			info.condition_amount,
+			info.publish_count,
+			info.per_limit,
+			info.expire_time,
+			info.description
+		from coupon_info info
+				 left join (
+			select coupon_id, customer_id, count(customer_id) cnt  from customer_coupon where customer_id = #{customerId}  group by coupon_id, customer_id
+		) cus_coup on cus_coup.coupon_id = info.id
+		where
+			info.status = 1
+		  and info.receive_count &lt; info.publish_count
+		  and (
+					info.per_limit =0 or info.per_limit > cus_coup.cnt or cus_coup.cnt is null
+			)
+		order by info.id desc
+	</select>
+
+	<select id="findUsedPage" resultType="com.atguigu.daijia.model.vo.coupon.UsedCouponVo">
+		select
+			info.id,
+			info.coupon_type,
+			info.name,
+			info.amount,
+			info.discount,
+			info.condition_amount,
+			info.publish_count,
+			info.per_limit,
+			info.expire_time,
+			info.description,
+
+			cstr.id as customerCouponId,
+			cstr.used_time
+		from coupon_info info
+				 inner join customer_coupon cstr on cstr.coupon_id = info.id
+		where
+			cstr.customer_id = #{customerId}
+		  and cstr.status = 2
+		order by cstr.id desc
+	</select>
+</mapper>
+

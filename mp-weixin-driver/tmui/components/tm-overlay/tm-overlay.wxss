@@ -1,0 +1,31 @@
+
+.overlay.data-v-009fda2d {
+	transition-timing-function: ease;
+	transition-property: opacity;
+	transition-delay: 0;
+	opacity: 0;
+}
+.blur.data-v-009fda2d{
+}
+.blurOn.data-v-009fda2d {
+
+	-webkit-backdrop-filter: blur(2px);
+
+	        backdrop-filter: blur(2px);
+
+	/* opacity: 1; */
+}
+.blurOff.data-v-009fda2d {
+
+	-webkit-backdrop-filter: blur(0px);
+
+	        backdrop-filter: blur(0px);
+
+	/* opacity: 0; */
+}
+.blurOnOpacity.data-v-009fda2d {
+	opacity: 1;
+}
+.blurOffOpacity.data-v-009fda2d {
+	opacity: 0;
+}

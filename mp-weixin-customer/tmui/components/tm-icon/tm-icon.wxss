@@ -1,0 +1,36 @@
+
+.ani.data-v-e3e455a0 {
+	transition-duration: 0.3s;
+	transition-timing-function: ease;
+	transition-property: -webkit-transform;
+	transition-property: transform;
+	transition-property: transform, -webkit-transform;
+}
+.spin.data-v-e3e455a0 {
+	-webkit-transform-origin: 50% 50%;
+	        transform-origin: 50% 50%;
+	-webkit-animation: xhRote-e3e455a0 1.2s infinite linear;
+	        animation: xhRote-e3e455a0 1.2s infinite linear;
+}
+@-webkit-keyframes xhRote-e3e455a0 {
+0% {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+}
+100% {
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+}
+}
+@keyframes xhRote-e3e455a0 {
+0% {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+}
+100% {
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+}
+}
+
+

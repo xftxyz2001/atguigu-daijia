@@ -1,0 +1,33 @@
+
+.button.data-v-f3634985 {
+	/* background: rgba(0, 0, 0, 0); */
+	/* border: 0px solid rgba(0, 0, 0, 0); */
+	padding: 0px;
+	/* border-radius: 0px; */
+}
+.buttonHover.data-v-f3634985 {
+	/* background: rgba(0, 0, 0, 0); */
+}
+.bhover.data-v-f3634985 {
+	opacity: 0.7;
+}
+
+
+
+
+
+
+
+/* .bhover:hover {
+  opacity: 0.7 !important;
+} */
+.button.data-v-f3634985::after {
+	background: transparent !important;
+	background-color: transparent !important;
+	border: none !important;
+	border-radius: 0px !important;
+}
+.button.alipay.data-v-f3634985 {
+	transition: opacity 0.7s;
+}
+

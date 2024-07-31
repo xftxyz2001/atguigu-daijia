@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.atguigu.daijia.order.mapper.OrderInfoMapper">
+
+    <select id="selectOrderPayVo" resultType="com.atguigu.daijia.model.vo.order.OrderPayVo">
+        select
+            info.id as order_id,
+            info.customer_id,
+            info.driver_id,
+            info.order_no,
+            info.start_location,
+            info.end_location,
+            info.status,
+            bill.pay_amount,
+            bill.coupon_amount
+
+        from order_info info inner join order_bill bill on info.id = bill.order_id
+        where info.customer_id = #{customerId}
+          and info.order_no = #{orderNo}
+    </select>
+
+    <select id="selectDriverOrderPage" resultType="com.atguigu.daijia.model.vo.order.OrderListVo">
+        select
+            info.id,
+            info.order_no,
+            info.start_location,
+            info.end_location,
+            real_amount as pay_amount,
+            if(info.status &lt; 7, info.expect_amount, info.real_amount) as amount,
+
+            info.status,
+            info.create_time
+        from order_info info
+        where info.driver_id = #{driverId}
+        and info.is_deleted =0
+        order by info.create_time desc
+    </select>
+
+    <!--查询乘客订单分页-->
+    <select id="selectCustomerOrderPage" resultType="com.atguigu.daijia.model.vo.order.OrderListVo">
+        select
+            info.id,
+            info.order_no,
+            info.start_location,
+            info.end_location,
+
+            if(info.status &lt; 7, info.expect_amount, bill.pay_amount) as amount,
+
+            info.status,
+            info.create_time
+        from order_info info left join order_bill bill on info.id = bill.order_id
+        where info.customer_id = #{customerId}
+        and info.is_deleted =0
+        order by info.create_time desc
+    </select>
+</mapper>
+

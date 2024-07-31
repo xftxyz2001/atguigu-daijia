@@ -1,0 +1,13 @@
+
+.user-info.data-v-a21a4d8b {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  padding: 5vh 0;
+  background-image: url('https://picsum.photos/312/312?id=1');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

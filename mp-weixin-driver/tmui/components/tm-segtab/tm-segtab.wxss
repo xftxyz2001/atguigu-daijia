@@ -1,0 +1,14 @@
+
+.bgbtnpos.data-v-4cd9ae76 {
+	transition-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1);
+	transition-duration: 0.4s;
+	transition-property: left, width, -webkit-transform;
+	transition-property: left, width, transform;
+	transition-property: left, width, transform, -webkit-transform;
+	transition-delay: 0s;
+}
+.tm-segtab.data-v-4cd9ae76 {
+	display: flex;
+
+	box-sizing: border-box;
+}

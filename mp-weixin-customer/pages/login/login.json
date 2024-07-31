@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "登陆",
+  "usingComponents": {
+    "loading-button": "../../components/loading-button/loading-button",
+    "tm-button": "../../tmui/components/tm-button/tm-button",
+    "tm-text": "../../tmui/components/tm-text/tm-text",
+    "tm-modal": "../../tmui/components/tm-modal/tm-modal",
+    "tm-app": "../../tmui/components/tm-app/tm-app"
+  }
+}

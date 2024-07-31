@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "usingComponents": {
+    "tm-image": "../../tmui/components/tm-image/tm-image",
+    "tm-text": "../../tmui/components/tm-text/tm-text",
+    "uni-icons": "../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "tm-cell": "../../tmui/components/tm-cell/tm-cell",
+    "loading-button": "../../components/loading-button/loading-button",
+    "tabbar-nav": "../../components/tabbar-nav/tabbar-nav",
+    "tm-app": "../../tmui/components/tm-app/tm-app"
+  }
+}

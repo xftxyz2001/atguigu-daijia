@@ -1,0 +1,1 @@
+<view class="flex relative app flex-1 data-v-690d8382" style="{{a + ';' + b}}"><block wx:if="{{$slots.d}}"><slot></slot></block><block wx:else><text class="data-v-690d8382">在这里放置内容</text></block></view>

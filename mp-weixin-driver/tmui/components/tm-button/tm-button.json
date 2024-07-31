@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "tm-icon": "../tm-icon/tm-icon"
+  }
+}

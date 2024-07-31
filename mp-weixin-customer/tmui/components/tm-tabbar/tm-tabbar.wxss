@@ -1,0 +1,8 @@
+
+.barcont {
+	display: flex;
+	flex-direction: row !important;
+	justify-content: space-around !important;
+	align-items: flex-start;
+}
+

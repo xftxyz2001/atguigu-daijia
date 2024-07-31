@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "优惠券",
+  "usingComponents": {
+    "tm-segtab": "../../tmui/components/tm-segtab/tm-segtab",
+    "tm-text": "../../tmui/components/tm-text/tm-text",
+    "tm-coupon": "../../tmui/components/tm-coupon/tm-coupon",
+    "tm-scrolly": "../../tmui/components/tm-scrolly/tm-scrolly",
+    "tabbar-nav": "../../components/tabbar-nav/tabbar-nav",
+    "tm-app": "../../tmui/components/tm-app/tm-app"
+  }
+}

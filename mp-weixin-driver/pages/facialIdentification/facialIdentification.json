@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "人脸识别",
+  "usingComponents": {
+    "tm-icon": "../../tmui/components/tm-icon/tm-icon",
+    "tm-button": "../../tmui/components/tm-button/tm-button",
+    "tm-sheet": "../../tmui/components/tm-sheet/tm-sheet",
+    "tm-app": "../../tmui/components/tm-app/tm-app"
+  }
+}

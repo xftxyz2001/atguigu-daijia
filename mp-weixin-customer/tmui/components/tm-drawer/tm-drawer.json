@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "tm-translate": "../tm-translate/tm-translate",
+    "tm-text": "../tm-text/tm-text",
+    "tm-icon": "../tm-icon/tm-icon",
+    "tm-overlay": "../tm-overlay/tm-overlay"
+  }
+}

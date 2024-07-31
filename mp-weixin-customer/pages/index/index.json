@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationStyle": "custom",
+  "titlePenetrate": "YES",
+  "usingComponents": {
+    "tabbar-nav": "../../components/tabbar-nav/tabbar-nav",
+    "tm-app": "../../tmui/components/tm-app/tm-app"
+  }
+}

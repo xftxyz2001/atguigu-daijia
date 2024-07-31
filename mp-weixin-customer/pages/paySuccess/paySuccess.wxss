@@ -1,0 +1,52 @@
+.pay-result.data-v-788a4eb2 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.pay-result .pay-status.data-v-788a4eb2 {
+  margin-top: 100rpx;
+  font-size: 48rpx;
+  line-height: 72rpx;
+  font-weight: bold;
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pay-result .pay-money.data-v-788a4eb2 {
+  color: #666666;
+  font-size: 28rpx;
+  line-height: 48rpx;
+  margin-top: 28rpx;
+  display: flex;
+  align-items: baseline;
+}
+.pay-result .pay-money .pay-money__price.data-v-788a4eb2 {
+  font-size: 36rpx;
+  line-height: 48rpx;
+  color: #fa4126;
+}
+.pay-result .btn-wrapper.data-v-788a4eb2 {
+  margin-top: 200rpx;
+  padding: 12rpx 32rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.pay-result .btn-wrapper .status-btn.data-v-788a4eb2 {
+  height: 88rpx;
+  width: 334rpx;
+  border-radius: 44rpx;
+  border: 2rpx solid #fa4126;
+  color: #fa4126;
+  font-size: 28rpx;
+  font-weight: bold;
+  line-height: 88rpx;
+  text-align: center;
+}

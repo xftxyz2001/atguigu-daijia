@@ -1,0 +1,1 @@
+<view render-whole="{{true}}" class="{{['flex', 'text-view', 'nv', 'data-v-3acfd808', l]}}"><text bindtap="{{b}}" selectable="{{c}}" user-select="{{d}}" class="{{['data-v-3acfd808', e, f]}}" style="{{g + ';' + h + ';' + i + ';' + j + ';' + k}}"><block wx:if="{{$slots.d}}"><slot></slot></block><block wx:else>{{a}}</block></text></view>

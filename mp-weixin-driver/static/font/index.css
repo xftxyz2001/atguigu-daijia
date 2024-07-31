@@ -1,0 +1,7 @@
+/*
+目前使用在线图标字体库，等到项目完成后需要将图标字体下载到本地
+*/
+/*
+<uni-icons custom-prefix="iconfont" type="shichang" class="gui-m-r-10" size="15"></uni-icons>
+*/
+@import "./iconfont.css";

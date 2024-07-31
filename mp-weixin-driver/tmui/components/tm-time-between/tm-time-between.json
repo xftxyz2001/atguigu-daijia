@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "tm-sheet": "../tm-sheet/tm-sheet",
+    "tm-tag": "../tm-tag/tm-tag",
+    "tm-text": "../tm-text/tm-text",
+    "tm-icon": "../tm-icon/tm-icon",
+    "tm-button": "../tm-button/tm-button",
+    "tm-time-view": "../tm-time-view/tm-time-view"
+  }
+}

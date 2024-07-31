@@ -1,0 +1,35 @@
+
+.anifun.data-v-f3ab9f5c {
+	-webkit-animation: scale-f3ab9f5c 0.2s ease;
+	        animation: scale-f3ab9f5c 0.2s ease;
+}
+@-webkit-keyframes scale-f3ab9f5c {
+0% {
+		-webkit-transform: scale(0.9);
+		        transform: scale(0.9);
+}
+50% {
+		-webkit-transform: scale(1.1);
+		        transform: scale(1.1);
+}
+100% {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+}
+}
+@keyframes scale-f3ab9f5c {
+0% {
+		-webkit-transform: scale(0.9);
+		        transform: scale(0.9);
+}
+50% {
+		-webkit-transform: scale(1.1);
+		        transform: scale(1.1);
+}
+100% {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+}
+}
+
+

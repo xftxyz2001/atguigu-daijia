@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "tm-upload": "../../tmui/components/tm-upload/tm-upload"
+  }
+}

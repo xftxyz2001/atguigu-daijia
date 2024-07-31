@@ -1,0 +1,53 @@
+
+.scroyy.data-v-a5038a4a {
+	overflow: hidden;
+
+	max-height: 100%;
+}
+.scroyy__track.data-v-a5038a4a {
+	position: relative;
+}
+.scroyy__track--loosing.data-v-a5038a4a {
+	transition-property: height, opacity, -webkit-transform;
+	transition-property: transform, height, opacity;
+	transition-property: transform, height, opacity, -webkit-transform;
+	transition-timing-function: ease;
+	transition-duration: 0.35s;
+}
+.scroyy__tips.data-v-a5038a4a {
+	position: absolute;
+	color: #bbb;
+	font-size: 24rpx;
+	top: 0;
+	width: 100%;
+	-webkit-transform: translateY(-100%);
+	        transform: translateY(-100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	overflow: hidden;
+}
+.scroyy__text.data-v-a5038a4a {
+	margin: 16rpx 0 0;
+}
+.scroyy__wrap.data-v-a5038a4a {
+	position: relative;
+}
+
+
+.srrryration {
+	transition-property: height, opacity, -webkit-transform;
+	transition-property: transform, height, opacity;
+	transition-property: transform, height, opacity, -webkit-transform;
+	transition-timing-function: ease;
+	transition-duration: 0.25s;
+}
+.srrryrationOn {
+	-webkit-transform: rotate(0deg);
+	        transform: rotate(0deg);
+}
+.srrryrationOf {
+	-webkit-transform: rotate(180deg);
+	        transform: rotate(180deg);
+}

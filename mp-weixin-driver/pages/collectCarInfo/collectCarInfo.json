@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "上传车辆信息",
+  "usingComponents": {
+    "upload-images": "../../components/upload-images/upload-images",
+    "tm-form-item": "../../tmui/components/tm-form-item/tm-form-item",
+    "tm-input": "../../tmui/components/tm-input/tm-input",
+    "tm-button": "../../tmui/components/tm-button/tm-button",
+    "tm-app": "../../tmui/components/tm-app/tm-app",
+    "tm-form": "../../tmui/components/tm-form/tm-form"
+  }
+}

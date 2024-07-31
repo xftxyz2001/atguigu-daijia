@@ -1,0 +1,89 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "postcss": false,
+    "minified": true,
+    "newFeature": true,
+    "bigPackageSizeSupport": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "condition": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "",
+  "appid": "wxcc651fcbab275e33",
+  "projectname": "designated-driver-minprogram-passenger",
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 0,
+      "list": [
+        {
+          "name": "测试页-首页",
+          "id": 0,
+          "pathName": "pages/index/index"
+        },
+        {
+          "name": "测试页-优惠券",
+          "query": "",
+          "id": 1,
+          "pathName": "pages/coupon/coupon"
+        },
+        {
+          "name": "测试页-个人中心",
+          "id": 2,
+          "pathName": "pages/userCenter/userCenter"
+        },
+        {
+          "name": "测试页-确认订单",
+          "id": 3,
+          "pathName": "pages/creatOrder/creatOrder"
+        },
+        {
+          "name": "测试页-订单列表",
+          "id": 4,
+          "pathName": "pages/orderList/orderList"
+        },
+        {
+          "name": "测试页-订单详情",
+          "id": 5,
+          "pathName": "pages/orderDetail/orderDetail"
+        },
+        {
+          "name": "测试页-登陆",
+          "id": 6,
+          "pathName": "pages/login/login"
+        },
+        {
+          "name": "测试页-支付成功",
+          "id": 7,
+          "pathName": "pages/paySuccess/paySuccess"
+        }
+      ]
+    }
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}

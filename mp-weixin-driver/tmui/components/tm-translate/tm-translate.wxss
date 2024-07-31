@@ -1,0 +1,71 @@
+
+.fade.data-v-1c8a1639 {
+	opacity: 0;
+}
+.fade-reverse.data-v-1c8a1639 {
+	opacity: 1;
+}
+.up.data-v-1c8a1639 {
+
+	-webkit-transform: translateY(0%);
+
+	        transform: translateY(0%);
+}
+.up-reverse.data-v-1c8a1639 {
+
+	-webkit-transform: translateY(-101%);
+
+	        transform: translateY(-101%);
+}
+.down.data-v-1c8a1639 {
+
+	-webkit-transform: translateY(0%);
+
+	        transform: translateY(0%);
+}
+.down-reverse.data-v-1c8a1639 {
+
+	-webkit-transform: translateY(101%);
+
+	        transform: translateY(101%);
+}
+.left.data-v-1c8a1639 {
+
+	-webkit-transform: translateX(0%);
+
+	        transform: translateX(0%);
+}
+.left-reverse.data-v-1c8a1639 {
+
+	-webkit-transform: translateX(-101%);
+
+	        transform: translateX(-101%);
+}
+.right.data-v-1c8a1639 {
+
+	-webkit-transform: translateX(0%);
+
+	        transform: translateX(0%);
+}
+.right-reverse.data-v-1c8a1639 {
+
+	-webkit-transform: translateX(101%);
+
+	        transform: translateX(101%);
+}
+.zoom.data-v-1c8a1639 {
+
+	-webkit-transform: scale(0.7, 0.7);
+
+	        transform: scale(0.7, 0.7);
+
+	opacity: 0;
+}
+.zoom-reverse.data-v-1c8a1639 {
+
+	-webkit-transform: scale(1, 1);
+
+	        transform: scale(1, 1);
+
+	opacity: 1;
+}

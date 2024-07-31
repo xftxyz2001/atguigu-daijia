@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "订单列表",
+  "usingComponents": {
+    "tm-segtab": "../../tmui/components/tm-segtab/tm-segtab",
+    "tm-text": "../../tmui/components/tm-text/tm-text",
+    "tm-cell": "../../tmui/components/tm-cell/tm-cell",
+    "tm-sheet": "../../tmui/components/tm-sheet/tm-sheet",
+    "tm-scrolly": "../../tmui/components/tm-scrolly/tm-scrolly",
+    "tm-app": "../../tmui/components/tm-app/tm-app"
+  }
+}

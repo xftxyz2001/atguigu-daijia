@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "tm-tabbar-item": "../../tmui/components/tm-tabbar-item/tm-tabbar-item",
+    "tm-tabbar": "../../tmui/components/tm-tabbar/tm-tabbar"
+  }
+}

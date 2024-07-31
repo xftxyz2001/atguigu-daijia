@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationStyle": "custom",
+  "titlePenetrate": "YES",
+  "usingComponents": {
+    "theme-icon": "../../components/theme-icon/theme-icon",
+    "loading-button": "../../components/loading-button/loading-button",
+    "tm-sheet": "../../tmui/components/tm-sheet/tm-sheet",
+    "tabbar-nav": "../../components/tabbar-nav/tabbar-nav",
+    "tm-app": "../../tmui/components/tm-app/tm-app",
+    "tm-notification": "../../tmui/components/tm-notification/tm-notification"
+  }
+}

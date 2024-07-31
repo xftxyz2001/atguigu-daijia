@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "确认下单",
+  "usingComponents": {
+    "theme-icon": "../../components/theme-icon/theme-icon",
+    "tm-cell": "../../tmui/components/tm-cell/tm-cell",
+    "uni-icons": "../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "loading-button": "../../components/loading-button/loading-button",
+    "tm-sheet": "../../tmui/components/tm-sheet/tm-sheet",
+    "tm-app": "../../tmui/components/tm-app/tm-app",
+    "arrive-at-the-destination": "./components/arriveAtTheDestination"
+  }
+}

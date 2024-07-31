@@ -1,0 +1,18 @@
+.logo.data-v-cdfe2409 {
+  padding: 100rpx 0;
+}
+.logo image.data-v-cdfe2409 {
+  width: 300rpx;
+  height: 300rpx;
+}
+.btn.data-v-cdfe2409 {
+  margin-top: 100rpx;
+  width: 100%;
+}
+.modal-btn.data-v-cdfe2409 {
+  width: 100%;
+  -webkit-transform: translate(0, 14rpx);
+          transform: translate(0, 14rpx);
+  position: relative;
+  z-index: 999;
+}

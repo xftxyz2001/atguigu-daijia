@@ -1,0 +1,27 @@
+
+.flex-left-custom.data-v-302d01b3 {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.flex-right-custom.data-v-302d01b3 {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+.flex-top-custom.data-v-302d01b3 {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.flex-end-custom.data-v-302d01b3 {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+.flex-center-custom.data-v-302d01b3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}

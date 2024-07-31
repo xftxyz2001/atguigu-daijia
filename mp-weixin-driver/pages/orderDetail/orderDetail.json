@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "订单详情",
+  "usingComponents": {
+    "tm-divider": "../../tmui/components/tm-divider/tm-divider",
+    "tm-cell": "../../tmui/components/tm-cell/tm-cell",
+    "tm-text": "../../tmui/components/tm-text/tm-text",
+    "tm-sheet": "../../tmui/components/tm-sheet/tm-sheet",
+    "loading-button": "../../components/loading-button/loading-button",
+    "tm-app": "../../tmui/components/tm-app/tm-app"
+  }
+}

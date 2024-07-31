@@ -1,0 +1,1 @@
+<tm-button wx:if="{{b}}" bindclick="{{a}}" u-i="32c75698-0" bind:__l="__l" u-p="{{b}}"></tm-button>

@@ -1,0 +1,1 @@
+<tm-upload wx:if="{{c}}" bindsuccess="{{a}}" bindremove="{{b}}" u-i="68de8cd8-0" bind:__l="__l" u-p="{{c}}"></tm-upload>

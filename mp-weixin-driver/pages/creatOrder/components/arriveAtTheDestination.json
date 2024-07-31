@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "loading-button": "../../../components/loading-button/loading-button",
+    "tm-input": "../../../tmui/components/tm-input/tm-input",
+    "tm-modal": "../../../tmui/components/tm-modal/tm-modal"
+  }
+}
